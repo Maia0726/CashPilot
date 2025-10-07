@@ -1,61 +1,21 @@
-/* Reset */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
+body{
+  background: #E6E9ED;
 }
 
-/* Header fixo */
-header {
-    background: #333;
-    color: #fff;
-    padding: 15px;
-    position: fixed;
-    width: 100%;
-    top: 0;
+.login nav a {
+  background: linear-gradient(135deg, #2ECC71, #58D68D) ;
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid;
+  color: #1A4D7A;
+  
 }
 
-/* Menu */
-header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    margin: 0;
-    padding: 0;
+.login div {
+  display: none;
 }
 
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
+.login div:target {
+  display: block;
 }
 
-/* Seções como páginas */
-section {
-    height: 100vh; /* cada “página” ocupa a tela inteira */
-    padding: 80px 20px;
-}
-
-/* Cores diferentes pra cada seção */
-#inicio {
-    background: #f1c40f;
-}
-#entrar {
-    background: #e74c3c;
-    color: #fff;
-}
-#sobre {
-    background: #2ecc71;
-    color: #fff;
-}
-#contato {
-    background: #3498db;
-    color: #fff;
-}
-#comousa {
-    background: #9b59b6;
-    color: #fff;
-}
-
-/* Rolagem suave */
-html {
-    scroll-behavior: smooth;
-}
